@@ -1,0 +1,13 @@
+# 运行时配置（mc-config/config.json 含真实 S3 凭据，禁止提交）
+mc-config/
+
+# WebView2 运行时数据、缓存，以及运行时解压出的 mc.exe
+app-data/
+
+# 日志
+*.log
+
+# 临时/调试目录
+_staging/
+_dltest/
+_dlverify/
