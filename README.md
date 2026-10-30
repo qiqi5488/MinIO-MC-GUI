@@ -1,5 +1,15 @@
 MinIO MC GUI（Windows 便携版）
 
+## 下载
+
+程序二进制不在仓库里（体积原因），请到 **Releases** 下载：
+
+- `MinIO-MC-GUI.exe` —— 单文件版，内置官方 mc.exe
+- `MinIO-MC-GUI-Embedded-portable.zip` —— 便携包（exe + 启动脚本 + 说明 + S3 根证书）
+- `MinIO-MC-GUI.exe.sha256` —— 校验值（本仓库与 Releases 均附）
+
+## 使用
+
 双击 Start-MinIO-MC-GUI.cmd 或 MinIO-MC-GUI.exe。
 支持 MinIO 以及任意 S3 兼容对象存储（AWS S3、Ceph RGW、各类私有化 S3 服务等）。
 

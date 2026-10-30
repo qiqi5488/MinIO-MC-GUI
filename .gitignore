@@ -7,6 +7,10 @@ app-data/
 # 日志
 *.log
 
+# 发布二进制放到 GitHub Releases，不进仓库（保留 .sha256 校验文件）
+/MinIO-MC-GUI.exe
+/MinIO-MC-GUI-Embedded-portable.zip
+
 # 临时/调试目录
 _staging/
 _dltest/
