@@ -2,11 +2,17 @@ MinIO MC GUI（Windows 便携版）
 
 ## 下载
 
-程序二进制不在仓库里（体积原因），请到 **Releases** 下载：
+程序二进制不在仓库里（体积原因），请到 **Releases** 下载唯一的文件：
 
-- `MinIO-MC-GUI.exe` —— 单文件版，内置官方 mc.exe
-- `MinIO-MC-GUI-Embedded-portable.zip` —— 便携包（exe + 启动脚本 + 说明 + S3 根证书）
-- `MinIO-MC-GUI.exe.sha256` —— 校验值（本仓库与 Releases 均附）
+- `MinIO-MC-GUI.exe` —— 单文件便携版，内置官方 mc.exe，**放到可写目录双击即可**
+
+校验值见本仓库 `MinIO-MC-GUI.exe.sha256`：
+
+```powershell
+Get-FileHash .\MinIO-MC-GUI.exe -Algorithm SHA256
+```
+
+首次启动会自动在同目录创建 `app-data\`（WebView2 数据 + 释放出来的 mc.exe）和 `mc-config\`（连接配置）。
 
 ## 使用
 
